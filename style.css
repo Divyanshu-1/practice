@@ -54,6 +54,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  margin: auto;
   width: 30rem;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -91,7 +92,7 @@ body {
   color: white;
 }
 .card__cta p {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 .card__cta p > .space {
   margin-left: 1rem;
@@ -106,10 +107,10 @@ body {
     }
 
     .card__cta {
-      max-width: 84%;
+      max-width: 80%;
       position: absolute;
       top: 50%;
-      left: 39%;
+      left: 38%;
       display: flex;
       transform: translate(-50%, -50%);
       width: 80%;
@@ -117,6 +118,6 @@ body {
     }
 
     .content {
-      height: 86vh;
+      height: 90vh;
     }
 }
