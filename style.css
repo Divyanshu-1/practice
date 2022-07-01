@@ -106,10 +106,10 @@ body {
     }
 
     .card__cta {
-      max-width: 80%;
+      max-width: 84%;
       position: absolute;
       top: 50%;
-      left: 40%;
+      left: 39%;
       display: flex;
       transform: translate(-50%, -50%);
       width: 80%;
