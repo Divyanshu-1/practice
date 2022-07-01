@@ -110,15 +110,14 @@ body {
       max-width: 80%;
       position: absolute;
       top: 50%;
-      left: 41%;
+      left: 4%;
       display: flex;
       transform: translate(-50%, -50%);
       width: 80%;
       color: white;
     }
-  
-  .content {
-    height: 94vh;
-  }
-  
+
+    .content {
+      height: 86vh;
+    }
 }
