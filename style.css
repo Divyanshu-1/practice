@@ -54,7 +54,6 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  margin: auto;
   width: 30rem;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -92,14 +91,14 @@ body {
   color: white;
 }
 .card__cta p {
-  margin-left: 0.5rem;
+  margin-left: 1rem;
 }
 .card__cta p > .space {
   margin-left: 1rem;
 }/*# sourceMappingURL=style.css.map */
 
 
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 400px) 
 {
    .card__cont
     {
