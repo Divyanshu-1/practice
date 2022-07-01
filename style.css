@@ -35,7 +35,7 @@ body {
 }
 
 .content {
-  height: 100vh;
+  height: 80vh;
   color: white;
   display: flex;
   justify-content: center;
@@ -86,6 +86,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  display: flex;
   transform: translate(-50%, -50%);
   width: 80%;
   color: white;
@@ -100,8 +101,19 @@ body {
 
 @media screen and (max-width: 600px) 
 {
-  .card-cta, .card__cont
+   .card__cont
     {
-       max-width: 100%;
+       max-width: 80%;
+    }
+
+    .card__cta {
+      max-width: 80%;
+      position: absolute;
+      top: 50%;
+      left: 41%;
+      display: flex;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      color: white;
     }
 }
